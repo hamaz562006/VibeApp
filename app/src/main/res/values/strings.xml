@@ -188,6 +188,8 @@
     <string name="minimax_description">Creator of MiniMax.</string>
     <string name="deepseek" translatable="false">DeepSeek</string>
     <string name="deepseek_description">Creator of DeepSeek, advanced reasoning models.</string>
+    <string name="groq" translatable="false">Groq</string>
+    <string name="groq_description">Fast inference with Llama, Mixtral, and more via Groq.</string>
     <string name="remove">Remove</string>
 
     <!-- Project management strings -->
