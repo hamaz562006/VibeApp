@@ -79,6 +79,11 @@ private val platformTypes = listOf(
         clientType = ClientType.DEEPSEEK,
         titleResId = R.string.deepseek,
         descriptionResId = R.string.deepseek_description
+    ),
+    PlatformTypeInfo(
+        clientType = ClientType.GROQ,
+        titleResId = R.string.groq,
+        descriptionResId = R.string.groq_description
     )
 )
 

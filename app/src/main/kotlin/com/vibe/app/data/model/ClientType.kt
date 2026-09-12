@@ -9,4 +9,5 @@ enum class ClientType {
     KIMI,
     MINIMAX,
     DEEPSEEK,
+    GROQ,
 }

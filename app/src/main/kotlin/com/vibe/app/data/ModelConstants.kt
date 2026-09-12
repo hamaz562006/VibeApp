@@ -11,6 +11,7 @@ object ModelConstants {
     const val KIMI_API_URL = "https://api.moonshot.cn/"
     const val MINIMAX_API_URL = "https://api.minimaxi.com/anthropic/"
     const val DEEPSEEK_API_URL = "https://api.deepseek.com/"
+    const val GROQ_API_URL = "https://api.groq.com/openai/v1/"
 
     const val CHAT_TITLE_GENERATE_PROMPT =
         "Create a title that summarizes the chat. " +

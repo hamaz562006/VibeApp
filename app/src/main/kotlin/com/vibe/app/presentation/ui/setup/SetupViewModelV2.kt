@@ -188,6 +188,7 @@ class SetupViewModelV2 @Inject constructor(
         ClientType.KIMI -> "Kimi"
         ClientType.MINIMAX -> "MiniMax"
         ClientType.DEEPSEEK -> "DeepSeek"
+        ClientType.GROQ -> "Groq"
     }
 
     private fun getDefaultApiUrl(clientType: ClientType): String = when (clientType) {
@@ -199,6 +200,7 @@ class SetupViewModelV2 @Inject constructor(
         ClientType.KIMI -> ModelConstants.KIMI_API_URL
         ClientType.MINIMAX -> ModelConstants.MINIMAX_API_URL
         ClientType.DEEPSEEK -> ModelConstants.DEEPSEEK_API_URL
+        ClientType.GROQ -> ModelConstants.GROQ_API_URL
     }
 
     private fun getDefaultModel(clientType: ClientType): String = when (clientType) {
@@ -210,6 +212,7 @@ class SetupViewModelV2 @Inject constructor(
         ClientType.KIMI -> "kimi-k2.5"
         ClientType.MINIMAX -> "MiniMax-M2.7"
         ClientType.DEEPSEEK -> "deepseek-reasoner"
+        ClientType.GROQ -> "llama-3.3-70b-versatile"
     }
 
     companion object {
