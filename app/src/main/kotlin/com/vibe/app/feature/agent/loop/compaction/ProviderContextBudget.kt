@@ -13,6 +13,7 @@ data class ProviderContextBudget(
             ClientType.OPENROUTER -> ProviderContextBudget(maxTokens = 60_000, recentTurns = 5)
             ClientType.OPENAI_COMPATIBLE -> ProviderContextBudget(maxTokens = 40_000, recentTurns = 4)
             ClientType.QWEN -> ProviderContextBudget(maxTokens = 40_000, recentTurns = 4)
+            ClientType.GROQ -> ProviderContextBudget(maxTokens = 40_000, recentTurns = 4)
             ClientType.MINIMAX -> ProviderContextBudget(maxTokens = 40_000, recentTurns = 4)
             ClientType.KIMI -> ProviderContextBudget(maxTokens = 24_000, recentTurns = 3)
             ClientType.DEEPSEEK -> ProviderContextBudget(maxTokens = 60_000, recentTurns = 5)
