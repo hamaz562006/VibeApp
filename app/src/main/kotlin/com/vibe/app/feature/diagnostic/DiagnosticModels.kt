@@ -247,6 +247,7 @@ fun ClientType.toDiagnosticProviderType(): String = when (this) {
     ClientType.OPENAI_COMPATIBLE -> "openai_compatible"
     ClientType.ANTHROPIC -> "anthropic"
     ClientType.QWEN -> "qwen"
+    ClientType.GROQ -> "groq"
     ClientType.KIMI -> "kimi"
     ClientType.MINIMAX -> "minimax"
     ClientType.DEEPSEEK -> "deepseek"
