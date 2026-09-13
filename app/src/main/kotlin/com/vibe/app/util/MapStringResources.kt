@@ -26,6 +26,7 @@ fun getClientTypeDisplayName(clientType: ClientType): String = when (clientType)
     ClientType.OPENAI_COMPATIBLE -> "OpenAI Compatible"
     ClientType.ANTHROPIC -> "Anthropic"
     ClientType.QWEN -> "Qwen"
+    ClientType.GROQ -> "Groq"
     ClientType.KIMI -> "Kimi"
     ClientType.MINIMAX -> "MiniMax"
     ClientType.DEEPSEEK -> "DeepSeek"
