@@ -539,6 +539,7 @@ private fun getApiHelpUrl(clientType: ClientType): String? = when (clientType) {
     ClientType.OPENAI_COMPATIBLE -> null
     ClientType.ANTHROPIC -> "https://console.anthropic.com/settings/keys"
     ClientType.QWEN -> "https://bailian.console.aliyun.com/cn-beijing/?tab=api#/api"
+    ClientType.GROQ -> "https://console.groq.com/keys"
     ClientType.KIMI -> "https://platform.moonshot.cn/console/api-keys"
     ClientType.MINIMAX -> "https://platform.minimaxi.com/user-center/basic-information/interface-key"
     ClientType.DEEPSEEK -> "https://platform.deepseek.com/api_keys"
